@@ -1,0 +1,124 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "user": "",
+      "mood": "6",
+      "intervall": 8,
+      "timestamp": 1686495426351,
+      "id": 2
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 9,
+      "timestamp": 1686495426353,
+      "id": 3
+    },
+    {
+      "user": "",
+      "mood": "5",
+      "intervall": 8,
+      "timestamp": 1686495736674,
+      "id": 4
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 9,
+      "timestamp": 1686495736677,
+      "id": 5
+    },
+    {
+      "user": "",
+      "mood": "4",
+      "intervall": 10,
+      "timestamp": 1686495736678,
+      "id": 6
+    },
+    {
+      "user": "",
+      "mood": "4",
+      "intervall": 9,
+      "timestamp": 1686496041282,
+      "id": 7
+    },
+    {
+      "user": "",
+      "mood": "5",
+      "intervall": 16,
+      "timestamp": 1686496041285,
+      "id": 8
+    },
+    {
+      "user": "",
+      "mood": "4",
+      "intervall": 17,
+      "timestamp": 1686496041286,
+      "id": 9
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 10,
+      "timestamp": 1686496041283,
+      "id": 10
+    },
+    {
+      "user": "",
+      "mood": "4",
+      "intervall": 15,
+      "timestamp": 1686496041284,
+      "id": 11
+    },
+    {
+      "user": "",
+      "mood": "4",
+      "intervall": 16,
+      "timestamp": 1686496142777,
+      "id": 12
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 17,
+      "timestamp": 1686496142779,
+      "id": 13
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 18,
+      "timestamp": 1686496252848,
+      "id": 14
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 17,
+      "timestamp": 1686496327161,
+      "id": 15
+    },
+    {
+      "user": "",
+      "mood": "3",
+      "intervall": 19,
+      "timestamp": 1686496397854,
+      "id": 16
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

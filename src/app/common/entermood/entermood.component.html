@@ -1,0 +1,20 @@
+<div *ngFor="let number of hours" class="container">
+    <form (ngSubmit)="submitForm()" class="custom-form">
+      <div class="form-group">
+        <h2>{{number}}-{{number+1}}</h2>
+        <label for="username">Username:</label>
+        <input id="username" name="username" type="text"[(ngModel)]="userName " class="form-control" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="selector">Select a number (1-10):</label>
+        <select id="selector" name="number" [(ngModel)]="selectedNumbers[number]"class="form-control" required>
+          <option *ngFor="let number of numbers" [value]="number">{{ number }}</option>
+        </select>
+      </div>
+  
+      <div class="form-group">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </div>
